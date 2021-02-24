@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\samor\\.nuget\\packages\\": {},
+    "C:\\Users\\Taylor.Liss.CTR\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\c_sharp\\dotnet-practice\\Chapter04\\WritingFunctions\\WritingFunctions.csproj",
+      "projectUniqueName": "C:\\code\\dotnetPractice\\Chapter04\\WritingFunctions\\WritingFunctions.csproj",
       "projectName": "WritingFunctions",
-      "projectPath": "C:\\code\\c_sharp\\dotnet-practice\\Chapter04\\WritingFunctions\\WritingFunctions.csproj",
-      "packagesPath": "C:\\Users\\samor\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\c_sharp\\dotnet-practice\\Chapter04\\WritingFunctions\\obj\\",
+      "projectPath": "C:\\code\\dotnetPractice\\Chapter04\\WritingFunctions\\WritingFunctions.csproj",
+      "packagesPath": "C:\\Users\\Taylor.Liss.CTR\\.nuget\\packages\\",
+      "outputPath": "C:\\code\\dotnetPractice\\Chapter04\\WritingFunctions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\samor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Taylor.Liss.CTR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

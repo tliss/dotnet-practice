@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OYxjMWMlDq9bSXGdRKQ9r568PNw+ZQIcC6eq5ifjOEvSVGOnt4Nf2kSc2NokvX7CCllp4BHRR3csbjO3bQVEZg==",
+  "dgSpecHash": "epd/JNf7FAFDi4XtEZx7f5QTw+gd/rgmS2Wz/Np7hgY7XIWxMs5Hw8FN1Ec6UgGjwwXCCB125ew4Ec/lfwMoxg==",
   "success": true,
-  "projectFilePath": "C:\\code\\c_sharp\\dotnet-practice\\Chapter04\\WritingFunctions\\WritingFunctions.csproj",
+  "projectFilePath": "C:\\code\\dotnetPractice\\Chapter04\\WritingFunctions\\WritingFunctions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
