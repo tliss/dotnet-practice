@@ -10,7 +10,7 @@ namespace Instrumenting
             // write to a text file in the project folder
             Trace.Listeners.Add(new TextWriterTraceListener(File.CreateText("log.txt")));
 
-            // text writer is buffered, so this option calls Flush() on all listene
+            // text writer is buffered, so this option calls Flush() on all listeners
             Trace.AutoFlush = true;
 
             Debug.WriteLine("Debug says, I am watching!");
