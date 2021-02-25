@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7LqAAOz5W9Qxe9F7NZLGj/OrUkksQMxZ4tHSmqFBwtXXsMGHeoUAQLn0MkzAPiju49T/fOs7soVCoQBLqX/aRA==",
+  "dgSpecHash": "WwEw8WalVmzjLtJLgcSkrkwcS2R6k/0ioRo0DvVKufabR3GkqdefQks2adQL4lb5c1EF9Xyw6Q7Fw7cQH4abpQ==",
   "success": true,
-  "projectFilePath": "C:\\code\\dotnetPractice\\Chapter04\\Instrumenting\\Instrumenting.csproj",
+  "projectFilePath": "/home/samort7/Documents/code/dotNet/dotnet-practice/Chapter04/Instrumenting/Instrumenting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
