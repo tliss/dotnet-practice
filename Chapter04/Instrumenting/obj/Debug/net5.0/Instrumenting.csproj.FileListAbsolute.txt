@@ -1,0 +1,16 @@
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\Instrumenting.exe
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\Instrumenting.deps.json
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\Instrumenting.runtimeconfig.json
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\Instrumenting.runtimeconfig.dev.json
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\Instrumenting.dll
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\ref\Instrumenting.dll
+C:\code\dotnetPractice\Chapter04\Instrumenting\bin\Debug\net5.0\Instrumenting.pdb
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.csprojAssemblyReference.cache
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.AssemblyInfoInputs.cache
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.AssemblyInfo.cs
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.csproj.CoreCompileInputs.cache
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.dll
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\ref\Instrumenting.dll
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.pdb
+C:\code\dotnetPractice\Chapter04\Instrumenting\obj\Debug\net5.0\Instrumenting.genruntimeconfig.cache
