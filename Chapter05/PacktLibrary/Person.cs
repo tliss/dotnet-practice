@@ -2,7 +2,7 @@
 
 namespace Packt.Shared
 {
-    public class Person : Object
+    public class Person : object
     {
     }
 }
