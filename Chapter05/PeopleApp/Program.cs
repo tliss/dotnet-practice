@@ -34,6 +34,10 @@ namespace PeopleApp
                 arg0: bob.Name,
                 arg1: bob.FavoriteAncientWonder,
                 arg2: (int)bob.FavoriteAncientWonder);
+
+            bob.BucketList = WondersOfTheAncientWorld.HangingGardensOfBabylon | WondersOfTheAncientWorld.MausoleumAtHalicarnassus;
+            // bob.BucketList = (WondersOfTheAncientWorld)18;
+            WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}");
         }
     }
 }
