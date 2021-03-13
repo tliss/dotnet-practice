@@ -43,10 +43,15 @@ namespace PeopleApp
             bob.Children.Add(new Person { Name = "Zoe" });
 
             WriteLine($"{bob.Name} has {bob.Children.Count} children:");
-            
-            for (int child = 0; child < bob.Children.Count; child++)
+
+            // for (int child = 0; child < bob.Children.Count; child++)
+            // {
+            //     WriteLine($" {bob.Children[child].Name}");
+            // }
+
+            foreach (Person child in bob.Children)
             {
-                WriteLine($" {bob.Children[child].Name}");
+                WriteLine($" {child.Name}");
             }
         }
     }
