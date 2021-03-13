@@ -38,6 +38,16 @@ namespace PeopleApp
             bob.BucketList = WondersOfTheAncientWorld.HangingGardensOfBabylon | WondersOfTheAncientWorld.MausoleumAtHalicarnassus;
             // bob.BucketList = (WondersOfTheAncientWorld)18;
             WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}");
+
+            bob.Children.Add(new Person { Name = "Alfred" });
+            bob.Children.Add(new Person { Name = "Zoe" });
+
+            WriteLine($"{bob.Name} has {bob.Children.Count} children:");
+            
+            for (int child = 0; child < bob.Children.Count; child++)
+            {
+                WriteLine($" {bob.Children[child].Name}");
+            }
         }
     }
 }
