@@ -71,6 +71,8 @@ namespace PeopleApp
             WriteLine(format: "{0} earned {1:C} interest.",
                 arg0: gerrierAccount.AccountName,
                 arg1: gerrierAccount.Balance * BankAccount.InterestRate);
+
+            WriteLine($"{bob.Name} is a {Person.Species}");
         }
     }
 }
