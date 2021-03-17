@@ -93,9 +93,26 @@ namespace PeopleApp
                 arg1: gunny.HomePlanet,
                 arg2: gunny.Instantiated);
 
-
             bob.WriteToConsole();
             WriteLine(bob.GetOrigin());
+
+            (string, int) fruit = bob.GetFruit();
+            WriteLine($"{fruit.Item1}, {fruit.Item2} there are.");
+
+            var fruitNamed = bob.GetNamedFruit();
+            WriteLine($"There are {fruitNamed.Number} {fruitNamed.Name}.");
+
+            // tuple name inference
+            var thing1 = ("Neville", 4);
+            WriteLine($"{thing1.Item1} has {thing1.Item2} children.");
+
+            var thing2 = (bob.Name, bob.Children.Count);
+            WriteLine($"{thing2.Name} has {thing2.Count} children.");
+
+            // deconstructing tuples
+            (string fruitName, int fruitNumber) = bob.GetFruit();
+
+            WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
         }
     }
 }
