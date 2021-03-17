@@ -113,6 +113,14 @@ namespace PeopleApp
             (string fruitName, int fruitNumber) = bob.GetFruit();
 
             WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
+
+            WriteLine(bob.SayHello());
+            WriteLine(bob.SayHello("Emily"));
+
+            WriteLine(bob.OptionalParameters());
+            WriteLine(bob.OptionalParameters("Jump!", 98.5));
+            WriteLine(bob.OptionalParameters(number: 52.7, command: "Hide!"));
+            WriteLine(bob.OptionalParameters("Poke!", active: false));
         }
     }
 }
