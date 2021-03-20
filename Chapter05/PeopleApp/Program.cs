@@ -216,8 +216,12 @@ namespace PeopleApp
             };
             var repaintedCar = car with { Color = "Polymetal Grey Metallic" };
             WriteLine("Original color was {0}, new color is {1}.",
-                arg0: car.Color, 
+                arg0: car.Color,
                 arg1: repaintedCar.Color);
+
+            var oscar = new ImmutableAnimal("Oscar", "Labrador");
+            var (who, what) = oscar; // calls Deconstruct method
+            WriteLine($"{who} is a {what}.");
         }
     }
 }
