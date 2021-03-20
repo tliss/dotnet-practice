@@ -199,11 +199,25 @@ namespace PeopleApp
                 WriteLine($"Flight costs {flightCost:C} for {passenger}");
             }
 
+            // init-only properties
             var jeff = new ImmutablePerson
             {
                 FirstName = "Jeff",
                 LastName = "Winger"
             };
             // jeff.FirstName = "Geoff";
+
+            // records
+            var car = new ImmutableVehicle
+            {
+                Brand = "Mazda MX-5 RF",
+                Color = "Soul Red Crystal Metallic",
+                Wheels = 4
+            };
+            var repaintedCar = car with { Color = "Polymetal Grey Metallic" };
+            WriteLine("Original color was {0}, new color is {1}.",
+                arg0: car.Color, 
+                arg1: repaintedCar.Color);
         }
     }
+}
