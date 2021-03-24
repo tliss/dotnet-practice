@@ -1,4 +1,5 @@
 ﻿using System;
+using Packt.Shared;
 
 namespace PeopleApp
 {
@@ -6,7 +7,10 @@ namespace PeopleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var taylor = new Person();
+            taylor.Name = "Taylor";
+            taylor.DateOfBirth = new DateTime(1986, 12, 20);
+            taylor.WriteToConsole();
         }
     }
 }
