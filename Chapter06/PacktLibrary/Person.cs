@@ -49,11 +49,33 @@ namespace Packt.Shared
                     $"{nameof(number)} cannot be less than zero.");
             }
             return localFactorial(number);
-            
+
             int localFactorial(int localNumber) // local function
             {
                 if (localNumber < 1) return 1;
                 return localNumber * localFactorial(localNumber - 1);
+            }
+        }
+
+        // event delegate field
+        public EventHandler Shout;
+
+        // data field
+        public int AngerLevel;
+
+        // method
+        public void Poke()
+        {
+            AngerLevel++;
+            if (AngerLevel >= 3)
+            {
+                // // if something is listening...
+                // if (Shout != null)
+                // {
+                //     // ...then call the delegate
+                //     Shout(this, EventArgs.Empty);
+                // }
+                Shout?.Invoke(this, EventArgs.Empty);
             }
         }
     }
