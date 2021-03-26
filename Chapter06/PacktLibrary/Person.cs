@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace Packt.Shared
 {
-    public class Person
+    public class Person : IComparable<Person>
     {
         // fields
         public string Name;
@@ -77,6 +77,12 @@ namespace Packt.Shared
                 // }
                 Shout?.Invoke(this, EventArgs.Empty);
             }
+        }
+
+        // a Person obj could have many fields. We need to tell the sort method which ones to compare
+        public int CompareTo(Person other)
+        {
+            return Name.CompareTo(other.Name);
         }
     }
 }
