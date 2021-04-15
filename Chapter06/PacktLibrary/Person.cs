@@ -79,7 +79,13 @@ namespace Packt.Shared
             }
         }
 
-        // a Person obj could have many fields. We need to tell the sort method which ones to compare
+        // overridden methods
+        public override string ToString()
+        {
+            return $"{Name} is a {base.ToString()}";
+        }
+
+        // a Person obj could have many fields. We need to tell the sort method which ones to compareA
         public int CompareTo(Person other)
         {
             return Name.CompareTo(other.Name);
