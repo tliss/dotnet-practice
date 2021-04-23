@@ -140,6 +140,17 @@ namespace PeopleApp
                 WriteLine($"{nameof(aliceInPerson)} AS an Employee");
                 // do something with aliceAsEmployee
             }
+
+            // inherit exception
+            try
+            {
+                john.TimeTravel(new DateTime(1999, 12, 31));
+                john.TimeTravel(new DateTime(1950, 12, 25));
+            }
+            catch (PersonException ex)
+            {
+                WriteLine(ex.Message);
+            }
         }
 
         private static void Harry_Shout(object sender, EventArgs e)
