@@ -1,8 +1,13 @@
-namespace Exercise
+namespace Exercise02
 {
     public class Rectangle : Shape
     {
-        public override double Area()
+        public Rectangle(double h, double w){
+            Height = h;
+            Width = w;
+            Area = CalculateArea();
+        }
+        public override double CalculateArea()
         {
             return Height * Width;
         }

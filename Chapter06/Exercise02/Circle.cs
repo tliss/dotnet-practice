@@ -1,11 +1,19 @@
-namespace Exercise
+using static System.Math;
+
+namespace Exercise02
 {
     public class Circle : Shape
     {
-        public override double Area()
+        public Circle(double r)
+        {
+            Height = r;
+            Width = r;
+            Area = CalculateArea();
+        }
+        public override double CalculateArea()
         {
             // Area of circle = PI * radius^2
-            return Height * Width;
+            return PI * (Height * Height);
         }
     }
 }
