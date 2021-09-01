@@ -5,4 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="13.0.1" />
+    <PackageReference Include="Tliss.CSdotnet.SharedLibrary" Version="5.0.0" />
+  </ItemGroup>
+
 </Project>
